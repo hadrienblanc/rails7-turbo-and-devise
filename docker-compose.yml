@@ -4,7 +4,7 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_DB : my_project_development
+      POSTGRES_DB : devise_test_development
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
